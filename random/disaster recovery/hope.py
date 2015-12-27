@@ -11,5 +11,4 @@ for i in range(size):
 		sm += servers[tempSize - 1] * (i + 1)
 		del servers[tempSize - 1]
 		tempSize -= 1
-
 print sm
