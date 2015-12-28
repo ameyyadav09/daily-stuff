@@ -4,5 +4,5 @@ mean = 2000
 sd = 200
 Z = 1 - 0.10
 per = norm.ppf(Z)
-stdScore = (Z*sd) + mean
+stdScore = (per*sd) + mean
 print "%.2f"%(stdScore)
