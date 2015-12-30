@@ -7,10 +7,7 @@ def main():
         #  3  0  0  0  1
 
         # The graph's adjacency matrix
-	matrix = [[0,1,1,0],
-                  [0,0,1,0],
-                  [1,0,0,1],
-                  [0,0,0,1]];
+	matrix = [[0,1,1,0],[0,0,1,0],[1,0,0,1],[0,0,0,1]];
 
 	# The visited array
 	visited = [0,0,0,0]
