@@ -1,14 +1,4 @@
-#!/bin/python
-
-import sys
-
-
-t = int(raw_input().strip())
-for a0 in xrange(t):
-    n = int(raw_input().strip())
-    count = 0
-    for each in str(n):
-        if each != '0':
-            if n % int(each):
-                count += 1
-    print count
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import Counter
+for each in sorted(Counter(raw_input()).most_common(3),key=lambda x: (-x[1],x[0])):
+    print each[0],each[1]
