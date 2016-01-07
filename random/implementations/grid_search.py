@@ -20,7 +20,6 @@ for tests in range(int(raw_input())):
 	flag = False
 	for i in range(gridi-pi+1):
 		for j in range(gridj-pj+1):
-			print grid[i][j:j+pj]
 			if pattern[0] == grid[i][j:j+pj]:
 				d = method(grid,i,j,pi,pj)
 				if d == pattern:

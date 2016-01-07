@@ -73,6 +73,7 @@ public class Dijkstras_Shortest_Path
     }
  
     public static void main(String [] arg) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         int adjacency_matrix[][];
         int number_of_vertices;
         int source = 0, destination = 0;
