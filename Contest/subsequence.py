@@ -12,7 +12,7 @@ def  kSub( k,  nums):
 		for j in range(i,len(nums)):
 			s = s + str(nums[j])
 			if int(s)%k==0:
-				# print s
+				print s
 				count += 1
 	return count
 

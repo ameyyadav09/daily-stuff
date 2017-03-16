@@ -23,7 +23,7 @@ public class Solution {
                     list.remove(0);
                 }
                 else {
-                    val = list.get(list.size()-1);
+                    val = list.get(0);
                     list.remove(list.size()-1);
                 }
             }
